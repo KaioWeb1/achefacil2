@@ -1,0 +1,25 @@
+ <header class="bar bar-nav">
+  <a class="icon icon-left-nav pull-left" ng-click="doTheBack()"></a>
+  <a class="icon icon-info pull-right" href="#/sobre/"></a>
+  <h1 class="title">ACHEFÁCIL</h1>
+</header>
+ <div class="content"> 
+  <div class="foto">
+  <img src="images/caruaru-sem-direitos-google.jpg">
+  </div>
+
+  <p class="table-view-divider">Serviços</viçosp>
+  <ul class="table-view">
+    <li class="table-view-cell" ng-repeat="item in adv">
+      <a href="#/servicos/{{item.id}}">
+    
+     {{item.company}}
+        <br>
+        {{item.categoria}}
+        {{item.cat}}
+      </a>
+      </li>
+ 
+  </ul>
+
+</div>

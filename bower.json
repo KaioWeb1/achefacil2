@@ -1,0 +1,16 @@
+{
+  "name": "achefacil",
+  "version": "1.0.0",
+  "description": "achefacil caruaru",
+  "authors": [
+    "KaioWeb"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
