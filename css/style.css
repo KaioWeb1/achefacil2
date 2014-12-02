@@ -64,3 +64,12 @@ ul{list-style: none; padding: 0px;}
     height: 10px;
     margin: 5px 0 0 0;
 }
+form .search{
+    background-color: #fff;
+    border: 1px solid;
+    width: 90%;
+    margin: 5px;
+    border-radius: 42px;
+}
+
+.angular-google-map-container{height: 400px;}

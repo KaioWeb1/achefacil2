@@ -5,12 +5,12 @@
 </header>
  <div class="content"> 
   <div class="foto">
-  <img src="images/caruaru-sem-direitos-google.jpg">
+   <form><input class="search" ng-model="search" type="search" placeholder="Procurar"></form>
   </div>
 
   <p class="table-view-divider">Serviços</viçosp>
   <ul class="table-view">
-    <li class="table-view-cell" ng-repeat="item in servicos | filter:filterByGenres">
+    <li class="table-view-cell" ng-repeat="item in servicos | filter:search">
       <a href="#/servicos/{{item.id}}">
     
      {{item.company}}

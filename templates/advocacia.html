@@ -1,16 +1,17 @@
  <header class="bar bar-nav">
   <a class="icon icon-left-nav pull-left" ng-click="doTheBack()"></a>
   <a class="icon icon-info pull-right" href="#/sobre/"></a>
+
   <h1 class="title">ACHEFÁCIL</h1>
 </header>
  <div class="content"> 
   <div class="foto">
-  <img src="images/caruaru-sem-direitos-google.jpg">
+   <form><input class="search" ng-model="search" type="search" placeholder="Procurar"></form>
   </div>
 
-  <p class="table-view-divider">Advocacia</p>
+  <p class="table-view-divider">Advocacia </p>
   <ul class="table-view">
-    <li class="table-view-cell" ng-repeat="item in adv">
+    <li class="table-view-cell" ng-repeat="item in adv | filter:search">
       <a href="#/adv/{{item.id}}">
     
      {{item.company}}

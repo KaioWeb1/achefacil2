@@ -1,4 +1,4 @@
-var achefacil = angular.module("achefacil",['ngRoute']).config(function($routeProvider){
+var achefacil = angular.module("achefacil",['ngRoute', 'uiGmapgoogle-maps']).config(function($routeProvider){
 		$routeProvider
 		.when("/categorias/",{
 			templateUrl:"templates/categorias.html",
@@ -21,58 +21,108 @@ var achefacil = angular.module("achefacil",['ngRoute']).config(function($routePr
 			controller:"Adv"
 		})
 		.when("/adv/:id",{
-			templateUrl:"templates/empresa.html",
+			templateUrl:"templates/advocacia-emp.html",
 			controller:"AdvId"
 		})
 		.when("/animais/",{
 			templateUrl:"templates/animais.html",
 			controller:"Animais"
 		})
+		.when("/animais/:id",{
+			templateUrl:"templates/animais-emp.html",
+			controller:"AnimaisId"
+		})
 		.when("/auto/",{
 			templateUrl:"templates/auto.html",
 			controller:"Auto"
+		})
+		.when("/auto/:id",{
+			templateUrl:"templates/auto-emp.html",
+			controller:"AutoId"
 		})
 		.when("/casa/",{
 			templateUrl:"templates/casa.html",
 			controller:"Casa"
 		})
+		.when("/casa/:id",{
+			templateUrl:"templates/casa-emp.html",
+			controller:"CasaId"
+		})
 		.when("/contabilidade/",{
 			templateUrl:"templates/contabilidade.html",
 			controller:"Contabilidade"
+		})
+		.when("/contabilidade/:id",{
+			templateUrl:"templates/contabilidade-emp.html",
+			controller:"ContabilidadeId"
 		})
 		.when("/diversos/",{
 			templateUrl:"templates/diversos.html",
 			controller:"Diversos"
 		})
+		.when("/diversos/:id",{
+			templateUrl:"templates/diversos-emp.html",
+			controller:"DiversosId"
+		})
 		.when("/educacao/",{
 			templateUrl:"templates/educacao.html",
 			controller:"Educacao"
+		})
+		.when("/educacao/:id",{
+			templateUrl:"templates/educacao-emp.html",
+			controller:"EducacaoId"
 		})
 		.when("/entretenimento/",{
 			templateUrl:"templates/entretenimento.html",
 			controller:"Entrenimento"
 		})
+		.when("/entretenimento/:id",{
+			templateUrl:"templates/entretenimento-emp.html",
+			controller:"EntrenimentoId"
+		})
 		.when("/gastronomia/",{
 			templateUrl:"templates/gastronomia.html",
 			controller:"Gastronomia"
+		})
+		.when("/gastronomia/:id",{
+			templateUrl:"templates/gastronomia-emp.html",
+			controller:"GastronomiaId"
 		})
 		.when("/livrarias/",{
 			templateUrl:"templates/livrarias.html",
 			controller:"Livrarias"
 		})
+		.when("/livrarias/:id",{
+			templateUrl:"templates/livrarias-emp.html",
+			controller:"LivrariasId"
+		})
 		.when("/moda/",{
 			templateUrl:"templates/moda.html",
 			controller:"Moda"
 		})
+		.when("/moda/:id",{
+			templateUrl:"templates/moda-emp.html",
+			controller:"ModaId"
+		})
 		.when("/saude/",{
 			templateUrl:"templates/saude.html",
 			controller:"Saude"
+		})
+		.when("/saude/:id",{
+			templateUrl:"templates/saude-emp.html",
+			controller:"SaudeId"
 		}).otherwise({
 			redirectTo:"/categorias"	
 		});
 //fastclick
 }).run(function () {
     FastClick.attach(document.body);
+}).config(function(uiGmapGoogleMapApiProvider) {
+    uiGmapGoogleMapApiProvider.configure({
+        key: 'AIzaSyBITR00BvvVwqP_1aI3Rf7tONeXrDyuW5Q',
+        v: '3.17',
+        libraries: 'weather,geometry,visualization'
+    });
 });
 
 achefacil.controller('Adv', function($scope, Adv, $window){
@@ -85,18 +135,29 @@ achefacil.controller('Adv', function($scope, Adv, $window){
 	};
 });
 
-achefacil.controller('AdvId', function($scope,$filter ,$routeParams,$window, Adv){
+achefacil.controller('AdvId', function($scope,$filter ,$routeParams, $window, uiGmapGoogleMapApi, Adv){
 	$scope.id = $routeParams.id;
 	var myfilter = $filter;
 	Adv.getAdv(function(data){
-		$scope.adv = myfilter('filter')(data,{
+		$scope.advid = myfilter('filter')(data,{
 			id:$routeParams.id
 		})[0];	
+		
 	})
+
+	uiGmapGoogleMapApi.then(function(maps){
+		console.log();
+		 $scope.map = {center:{latitude:-8.9711495,longitude:-35.971149},zoom:19};
+        $scope.options = {scrollwheel: false};
+
+
+    }).getB;
 
 	$scope.doTheBack = function() {
 	  window.history.back();
 	};
+
+	$scope.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
 
 });
 
@@ -110,6 +171,23 @@ achefacil.controller('Animais', function($scope, Animais, $window){
 		  window.history.back();
 	};
 });
+
+achefacil.controller('AnimaisId', function($scope,$filter ,$routeParams, $window, Animais){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Animais.getAnimais(function(data){
+		$scope.animaisid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
+
 achefacil.controller('Auto', function($scope, Auto, $window){
 		$scope.auto = {}
 		Auto.getAuto(function(data){			
@@ -119,6 +197,21 @@ achefacil.controller('Auto', function($scope, Auto, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('AutoId', function($scope,$filter ,$routeParams, $window, Auto){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Auto.getAuto(function(data){
+		$scope.autoid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
 achefacil.controller('Casa', function($scope, Casa, $window){
 		$scope.casa = {}
 		Casa.getCasa(function(data){			
@@ -128,6 +221,21 @@ achefacil.controller('Casa', function($scope, Casa, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('CasaId', function($scope, $window, $routeParams, $filter, Casa){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Casa.getCasa(function(data){
+		$scope.casaid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
 achefacil.controller('Contabilidade', function($scope, Contabilidade, $window){
 		$scope.contabilidade = {}
 		Contabilidade.getContabilidade(function(data){			
@@ -137,6 +245,21 @@ achefacil.controller('Contabilidade', function($scope, Contabilidade, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('ContabilidadeId', function($scope,$filter ,$routeParams, $window, Contabilidade){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Contabilidade.getContabilidade(function(data){
+		$scope.contabilidadeid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
 achefacil.controller('Diversos', function($scope, Diversos, $window){
 		$scope.diversos = {}
 		Diversos.getDiversos(function(data){			
@@ -146,6 +269,22 @@ achefacil.controller('Diversos', function($scope, Diversos, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('DiversosId', function($scope,$filter ,$routeParams, $window, Diversos){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Diversos.getDiversos(function(data){
+		$scope.diversosid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
+
 achefacil.controller('Educacao', function($scope, Educacao, $window){
 		$scope.educacao = {}
 		Educacao.getEducacao(function(data){			
@@ -155,6 +294,21 @@ achefacil.controller('Educacao', function($scope, Educacao, $window){
 		  window.history.back();
 	};
 });
+
+achefacil.controller('EducacaoId', function($scope,$filter ,$routeParams, $window, Educacao){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Educacao.getEducacao(function(data){
+		$scope.educacaoid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+});
+
+
 achefacil.controller('Entrenimento', function($scope, Entrenimento, $window){
 		$scope.entretenimento = {}
 		Entrenimento.getEntretenimento(function(data){			
@@ -164,6 +318,24 @@ achefacil.controller('Entrenimento', function($scope, Entrenimento, $window){
 		  window.history.back();
 	};
 });
+
+achefacil.controller('EntrenimentoId', function($scope,$filter ,$routeParams, $window, Entrenimento){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Entrenimento.getEntretenimento(function(data){
+		$scope.entretenimentoid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
+
+
 achefacil.controller('Gastronomia', function($scope, Gastronomia, $window){
 		$scope.gastronomia = {}
 		Gastronomia.getGastronomia(function(data){			
@@ -173,6 +345,21 @@ achefacil.controller('Gastronomia', function($scope, Gastronomia, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('GastronomiaId', function($scope,$filter ,$routeParams, $window, Gastronomia){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Gastronomia.getGastronomia(function(data){
+		$scope.gastronomiaid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
 achefacil.controller('Livrarias', function($scope, Livrarias, $window){
 		$scope.livrarias = {}
 		Livrarias.getLivrarias(function(data){			
@@ -182,6 +369,22 @@ achefacil.controller('Livrarias', function($scope, Livrarias, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('LivrariasId', function($scope,$filter ,$routeParams, $window, Livrarias){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Livrarias.getLivrarias(function(data){
+		$scope.livrariasid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
+
 achefacil.controller('Moda', function($scope, Moda, $window){
 		$scope.moda = {}
 		Moda.getModa(function(data){			
@@ -191,6 +394,23 @@ achefacil.controller('Moda', function($scope, Moda, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('ModaId', function($scope,$filter ,$routeParams, $window, Moda){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Moda.getModa(function(data){
+		$scope.modaid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
+
+
 achefacil.controller('Saude', function($scope, Saude, $window){
 		$scope.saude = {}
 		Saude.getSaude(function(data){			
@@ -200,6 +420,23 @@ achefacil.controller('Saude', function($scope, Saude, $window){
 		  window.history.back();
 	};
 });
+achefacil.controller('SaudeId', function($scope,$filter ,$routeParams, $window, Saude){
+	$scope.id = $routeParams.id;
+	var myfilter = $filter;
+	Saude.getSaude(function(data){
+		$scope.saudeid = myfilter('filter')(data,{
+			id:$routeParams.id
+		})[0];	
+	})
+
+	$scope.doTheBack = function() {
+	  window.history.back();
+	};
+
+});
+
+
+
 achefacil.controller('Servicos', function($scope, Servicos, $window, $routeParams){
 		$scope.servicos = {}
 		Servicos.getServicos(function(data){			
@@ -686,3 +923,4 @@ achefacil.factory('Saude', function($http){
 
 	return obj;
 })
+
