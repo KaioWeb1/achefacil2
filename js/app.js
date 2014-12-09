@@ -1,4 +1,4 @@
-var achefacil = angular.module("achefacil",['ngRoute', 'uiGmapgoogle-maps']).config(function($routeProvider){
+var achefacil = angular.module("achefacil",['ngRoute','ui.map','ui.event']).config(function($routeProvider){
 		$routeProvider
 		.when("/categorias/",{
 			templateUrl:"templates/categorias.html",
@@ -117,13 +117,18 @@ var achefacil = angular.module("achefacil",['ngRoute', 'uiGmapgoogle-maps']).con
 //fastclick
 }).run(function () {
     FastClick.attach(document.body);
-}).config(function(uiGmapGoogleMapApiProvider) {
-    uiGmapGoogleMapApiProvider.configure({
-        key: 'AIzaSyBITR00BvvVwqP_1aI3Rf7tONeXrDyuW5Q',
-        v: '3.17',
-        libraries: 'weather,geometry,visualization'
-    });
 });
+
+
+
+
+// .config([function('GoogleApi']) {
+//     uiGmapGoogleMapApiProvider.configure({
+//         key: 'AIzaSyBITR00BvvVwqP_1aI3Rf7tONeXrDyuW5Q',
+//         v: '3.17',
+//         libraries: 'weather,geometry,visualization'
+//     });
+// });
 
 achefacil.controller('Adv', function($scope, Adv, $window){
 		$scope.adv = {}
@@ -135,29 +140,51 @@ achefacil.controller('Adv', function($scope, Adv, $window){
 	};
 });
 
-achefacil.controller('AdvId', function($scope,$filter ,$routeParams, $window, uiGmapGoogleMapApi, Adv){
+achefacil.controller('AdvId', function($scope, $filter, $routeParams, $window, Adv){
 	$scope.id = $routeParams.id;
+
+
 	var myfilter = $filter;
 	Adv.getAdv(function(data){
 		$scope.advid = myfilter('filter')(data,{
 			id:$routeParams.id
-		})[0];	
+		})[0];
+
 		
 	})
-
-	uiGmapGoogleMapApi.then(function(maps){
-		console.log();
-		 $scope.map = {center:{latitude:-8.9711495,longitude:-35.971149},zoom:19};
-        $scope.options = {scrollwheel: false};
+	
 
 
-    }).getB;
+	var ll = new google.maps.LatLng($scope.advid.latitude, $scope.advid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
 
-	$scope.doTheBack = function() {
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(m) {
+  
+    };
+
+
+   $scope.doTheBack = function() {
 	  window.history.back();
 	};
 
-	$scope.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
+
+
+
 
 });
 

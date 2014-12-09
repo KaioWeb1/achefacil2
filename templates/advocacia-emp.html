@@ -23,9 +23,28 @@
 					<a href="{{empresa.social[0].link}}" target="_system">Google+</a><br>
 					<a href="{{empresa.social[1].link}}" target="_system">Twitter</a><br>
 				</div>
-				<div id="map_canvas">
-					<ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
-				</div>
+				
+
+					 <div id="map_canvas" ui-map="myMap" 
+				         
+				        ui-options="mapOptions" 
+				        ui-event="{'map-idle' : 'onMapIdle()'}"
+				        >
+				        </div>
+				        
+				        <!--In addition to creating the markers on the map, div elements with existing google.maps.Marker object should be created to hook up with events -->
+
+				        <div ng-repeat="marker in myMarkers" ui-map-marker="myMarkers[$index]"
+				                        ui-event="{'map-click': 'markerClicked(marker)'}">
+				      </div>
+
+
+
+
+				
+
+					
+				
 			</li>
 		</ul>
 	</div>
