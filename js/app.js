@@ -152,8 +152,6 @@ achefacil.controller('AdvId', function($scope, $filter, $routeParams, $window, A
 
 		
 	})
-	
-
 
 	var ll = new google.maps.LatLng($scope.advid.latitude, $scope.advid.longitude);
     $scope.mapOptions = {
@@ -168,23 +166,21 @@ achefacil.controller('AdvId', function($scope, $filter, $routeParams, $window, A
             var marker = new google.maps.Marker({
                 map: $scope.myMap,
                 position: ll
+               	
             });
             $scope.myMarkers = [marker, ];
         }
     };
 
-    $scope.markerClicked = function(m) {
-  
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
     };
-
 
    $scope.doTheBack = function() {
 	  window.history.back();
 	};
-
-
-
-
 
 });
 
@@ -207,6 +203,31 @@ achefacil.controller('AnimaisId', function($scope,$filter ,$routeParams, $window
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.animaisid.latitude, $scope.animaisid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
 
 	$scope.doTheBack = function() {
 	  window.history.back();
@@ -233,6 +254,32 @@ achefacil.controller('AutoId', function($scope,$filter ,$routeParams, $window, A
 		})[0];	
 	})
 
+	var ll = new google.maps.LatLng($scope.autoid.latitude, $scope.autoid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
+
 	$scope.doTheBack = function() {
 	  window.history.back();
 	};
@@ -256,6 +303,31 @@ achefacil.controller('CasaId', function($scope, $window, $routeParams, $filter, 
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.casaid.latitude, $scope.casaid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
 
 	$scope.doTheBack = function() {
 	  window.history.back();
@@ -281,6 +353,31 @@ achefacil.controller('ContabilidadeId', function($scope,$filter ,$routeParams, $
 		})[0];	
 	})
 
+	var ll = new google.maps.LatLng($scope.contabilidadeid.latitude, $scope.contabilidadeid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 	$scope.doTheBack = function() {
 	  window.history.back();
 	};
@@ -304,6 +401,32 @@ achefacil.controller('DiversosId', function($scope,$filter ,$routeParams, $windo
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.diversosid.latitude, $scope.diversosid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 
 	$scope.doTheBack = function() {
 	  window.history.back();
@@ -330,6 +453,32 @@ achefacil.controller('EducacaoId', function($scope,$filter ,$routeParams, $windo
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.educacaoid.latitude, $scope.educacaoid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 	$scope.doTheBack = function() {
 	  window.history.back();
 	};
@@ -355,6 +504,31 @@ achefacil.controller('EntrenimentoId', function($scope,$filter ,$routeParams, $w
 		})[0];	
 	})
 
+	var ll = new google.maps.LatLng($scope.entretenimentoid.latitude, $scope.entretenimentoid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 	$scope.doTheBack = function() {
 	  window.history.back();
 	};
@@ -368,6 +542,8 @@ achefacil.controller('Gastronomia', function($scope, Gastronomia, $window){
 		Gastronomia.getGastronomia(function(data){			
 			$scope.gastronomia = data;	
 		})
+
+
 	$scope.doTheBack = function() {
 		  window.history.back();
 	};
@@ -380,6 +556,32 @@ achefacil.controller('GastronomiaId', function($scope,$filter ,$routeParams, $wi
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.gastronomiaid.latitude, $scope.gastronomiaid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 
 	$scope.doTheBack = function() {
 	  window.history.back();
@@ -404,6 +606,32 @@ achefacil.controller('LivrariasId', function($scope,$filter ,$routeParams, $wind
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.livrariasid.latitude, $scope.livrariasid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 
 	$scope.doTheBack = function() {
 	  window.history.back();
@@ -430,6 +658,32 @@ achefacil.controller('ModaId', function($scope,$filter ,$routeParams, $window, M
 		})[0];	
 	})
 
+	var ll = new google.maps.LatLng($scope.modaid.latitude, $scope.modaid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
+
 	$scope.doTheBack = function() {
 	  window.history.back();
 	};
@@ -455,6 +709,32 @@ achefacil.controller('SaudeId', function($scope,$filter ,$routeParams, $window, 
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.saudeid.latitude, $scope.saudeid.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 
 	$scope.doTheBack = function() {
 	  window.history.back();
@@ -504,6 +784,32 @@ achefacil.controller('Empresa', function($scope,$filter ,$routeParams,$window, S
 			id:$routeParams.id
 		})[0];	
 	})
+
+	var ll = new google.maps.LatLng($scope.empresa.latitude, $scope.empresa.longitude);
+    $scope.mapOptions = {
+        center: ll,
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Markers should be added after map is loaded
+    $scope.onMapIdle = function() {
+        if ($scope.myMarkers === undefined){    
+            var marker = new google.maps.Marker({
+                map: $scope.myMap,
+                position: ll
+               	
+            });
+            $scope.myMarkers = [marker, ];
+        }
+    };
+
+    $scope.markerClicked = function(marker) {
+            console.log('on click - opening window');
+            $scope.myInfoWindow.open($scope.myMap, marker);
+	       
+    };
+
 
 	$scope.doTheBack = function() {
 	  window.history.back();

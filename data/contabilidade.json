@@ -1,141 +1,39 @@
 [
-  {
-    "categoria": "Advocacia",
+ {
+    "categoria": "Contabilidade",
     "id": 1,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Contabilidade Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
+    "thumbnailUrl": "cecom.jpg",
+    "company": "CECOM Consultoria",
+    "email": "",
+    "phone": "(81) 3721-2808",
+    "address": "Av. Dr. Pedro Jordão, 128 - Maurício de Nassau, PE",
+    "about": "A CECOM - Consultoria Especializada em Contabilidade Municipal é uma empresa de assessoria e prestação de serviços nas áreas Administrativa, Financeira e Tributária, para Órgãos Públicos de Administração Direta, Indireta, Empresas Públicas e Fundacionais.\r\n",
+    "registered": "2014-12-11",
+    "latitude": -8.2791996,
+    "longitude": -35.9705324,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "name": "facebook",
+        "link": "https://pt-br.facebook.com/pages/CECOM-CONSULTORIA/301694939865130"
       }
     ]
   },
   {
-    "categoria": "Auto, Peças e Acessórios",
-    "id": 4,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Advocacia",
-    "id": 5,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Alex Churrasco",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
-    "id": 3,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
+    "categoria": "Contabilidade",
     "id": 2,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
+    "thumbnailUrl": "contabli.jpg",
+    "company": "Contabli",
+    "email": "",
+    "phone": "(81) 2103-9000",
+    "address": "Rua Frei Caneca, 116 - 2º Andar - Salas: 201,202 e 503”A” - Edf. Comercial Sebastião de Luna, Maurício de Nassau - Caruaru-PE",
+    "about": "CONTABLI - CONTABILIDADE, AUDITORIA E ASSESSORIA LTDA, empresa atuando há 30 anos, firmou uma imagem de confiança e responsabilidade na prestação de serviços contábeis, sempre preocupada em integrar aspectos técnicos e econômicos, tornando-se a melhor alternativa para sua empresa ter controle total da área contábil e obter o máximo de redução no pagamento de tributos.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2823521,
+    "longitude": -35.9698227,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "name": "facebook",
+        "link": ""
       }
     ]
   }

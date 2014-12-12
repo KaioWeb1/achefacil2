@@ -10,13 +10,13 @@
 
   <p class="table-view-divider">Auto Peças e Acessórios</p>
   <ul class="table-view">
-    <li class="table-view-cell" ng-repeat="item in Auto | filter:search">
+    <li class="table-view-cell" ng-repeat="item in Auto | filter:search | orderBy:'company'">
       <a href="#/auto/{{item.id}}">
     
      {{item.company}}
         <br>
-        {{item.categoria}}
-        {{item.cat}}
+        <p>{{item.categoria}}</p>
+      
       </a>
       </li>
  

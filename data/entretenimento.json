@@ -1,142 +1,47 @@
 [
   {
-    "categoria": "Advocacia",
+    "categoria": "Entretenimento",
     "id": 1,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Entretenimento Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
+    "thumbnailUrl": "radio-independente.jpg",
+    "company": "FM Rádio Independente de Arcoverde",
+    "email": "",
+    "phone": "(87) 3821-0100",
+    "address": "Praça da Bandeira, 10, Arcoverde - PE, 56506-590",
+    "about": "Uma das pioneiras na radio difusão em faixa modulada no interior do Estado de Pernambuco.\r\n",
+    "registered": "2014-12-11",
+    "latitude": -8.419827,
+    "longitude": -37.057357,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
+        "name": "facebook",
+        "link": "http://www.facebook.com/fmindependente"
       },
       {
         "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "link": "http://twitter.com/fmindependente"
       }
+      
     ]
   },
   {
-    "categoria": "Auto, Peças e Acessórios",
-    "id": 4,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Advocacia",
-    "id": 5,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Alex Churrasco",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
-    "id": 3,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
+    "categoria": "Entretenimento",
     "id": 2,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
+    "thumbnailUrl": "selettos.jpg",
+    "company": "Seletto Eventos",
+    "email": "",
+    "phone": "(81) 3095-4703",
+    "address": "Rua Porto Alegre | Nº 115 | Centro - PE, 56506-590",
+    "about": "O sucesso do nosso trabalho tem sido experiência, formação técnica em organização de eventos, e acima de tudo, amor pelo que fazemos, juntamente com a capacitação da equipe. Essa é a diferença!\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2846587,
+    "longitude": -35.9722695,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "name": "facebook",
+        "link": "http://www.facebook.com/selettoeventos"
       }
+      
     ]
   }
+ 
 ]

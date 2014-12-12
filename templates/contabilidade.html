@@ -10,13 +10,12 @@
 
   <p class="table-view-divider">Contabilidade</p>
   <ul class="table-view">
-    <li class="table-view-cell" ng-repeat="item in contabilidade | filter:search">
+    <li class="table-view-cell" ng-repeat="item in contabilidade | filter:search | orderBy:'company'">
       <a href="#/contabilidade/{{item.id}}">
     
      {{item.company}}
         <br>
-        {{item.categoria}}
-        {{item.cat}}
+        <p>{{item.categoria}}</p> 
       </a>
       </li>
  

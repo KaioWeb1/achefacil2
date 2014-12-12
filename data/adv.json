@@ -2,140 +2,19 @@
   {
     "categoria": "Advocacia",
     "id": 1,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Advogados Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -8.2785287,
-    "longitude":-35.9706482,
-    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.0789971253736!2d-35.9750513706789!3d-8.271313895405207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xb12036e92f7b77c8!2sVia+Regional+Restaurante!5e0!3m2!1spt-BR!2sbr!4v1418034362424' width='600' height='450' frameborder='0' style='border:0'></iframe>",
+    "thumbnailUrl": "cicero.jpg",
+    "company": "CÍCERO MAGALHÃES",
+    "email": "",
+    "phone": "(81) 3871-2088",
+    "address": "Rua Júlia Aragão, 307 - Bairro Novo Santa Cruz do Capibaribe - PE",
+    "about": "O CESAC – Centro de Ensino Superior Santa Cruz, é uma instituição de ensino superior mantenedora da Faculdade Santa Cruz – FACRUZ e do Instituto Superior de Educação Santa Cruz – ISED.\r\n",
+    "registered": "2014-12-11",
+    "latitude": -7.955692,
+    "longitude": -36.204905,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Auto, Peças e Acessórios",
-    "id": 4,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -8.2950292,
-    "longitude":-35.9520932,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Advocacia",
-    "id": 5,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Alex Churrasco",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
-    "id": 3,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
-    "id": 2,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "name": "facebook",
+        "link": "https://pt-br.facebook.com/pages/CESAC/142584895809393"
       }
     ]
   }

@@ -1,141 +1,191 @@
 [
   {
-    "categoria": "Advocacia",
+    "categoria": "Casa e Construção",
     "id": 1,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Casa Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
+    "thumbnailUrl": "bezerra.png",
+    "company": "Bezerra Engenharia",
+    "email": "",
+    "phone": "(81) 3721-7042",
+    "address": "R. Padre Félix Barreto, 79 - Maurício de Nassau, Caruaru - PE",
+    "about": "Atuando no mercado desde 1986, a Bezerra Engenharia constrói com profissionalismo, competência e credibilidade uma extensa relação de importantes obras e projetos realizados no agreste Pernambucano.\r\n",
+    "registered": "2014-12-11",
+    "latitude": -8.2820126,
+    "longitude": -35.9689338,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "name": "facebook",
+        "link": "https://www.facebook.com/bezerra.engenharia"
       }
     ]
   },
   {
-    "categoria": "Auto, Peças e Acessórios",
-    "id": 4,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Advocacia",
-    "id": 5,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Alex Churrasco",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
-    "id": 3,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Restaurante Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
-    "social": [
-      {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
-      {
-        "name": "github",
-        "link": "https://github.com/abdala"
-      }
-    ]
-  },
-  {
-    "categoria": "Animais",
+    "categoria": "Casa e Construção",
     "id": 2,
-    "thumbnailUrl": "boi-e-brasa.jpg",
-    "company": "Boi Brasa",
-    "email": "contato@boiebrasa.com.br",
-    "phone": "(81) 3765-3189",
-    "address": "Av dos estados, Caruaru, Nevada, 2888",
-    "about": "Elit ut cillum aliqua esse eiusmod irure. Culpa officia Lorem sit aute ex et aliqua nulla ipsum aliquip. Cupidatat duis proident pariatur ipsum dolor nostrud ex voluptate proident excepteur veniam exercitation nostrud. Aliquip minim nostrud consectetur elit esse anim laborum.\r\n",
-    "registered": "2014-10-03T03:21:30 +03:00",
-    "latitude": -68.998362,
-    "longitude": -133.084024,
-    "mapa": "embed?pb=!1m14!1m8!1m3!1d1975.3173649154985!2d-34.94356910786591!3d-8.036542699382778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197bf24d4d3f%3A0x56de8232491efc16!2sBoi+%26+Brasa!5e0!3m2!1spt-BR!2sbr!4v1415878563997",
+    "thumbnailUrl": "cael.png",
+    "company": "Cael Atacado",
+    "email": "",
+    "phone": "(81) 3722-5599",
+    "address": "R. Dário Galvão - Divinópolis, Caruaru - PE",
+    "about": "A CAEL destaca-se no mercado estando entre as maiores no segmento de Atacadista de eletrodomésticos, eletro portáteis, telefonia, e eletro eletrônico, entre seus concorrentes. A CAEL tem sido referência no comércio atacadista devido á tradição e a confiabilidade.\r\n",
+    "registered": "2014-12-11",
+    "latitude": -8.2699607,
+    "longitude": -35.9785305,
     "social": [
       {
-        "name": "google-plus",
-        "link": "https://plus.google.com/101508416102638452477"
-      },
+        "name": "facebook",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 3,
+    "thumbnailUrl": "casan.png",
+    "company": "CAZANOVA Construção",
+    "email": "",
+    "phone": "(81) 2103-1313",
+    "address": "Rua Leão Dourado | Nº 40 | Bairro: São Francisco, Caruaru - PE",
+    "about": "No ano de 2002 nascia a primeira loja de auto-serviço de material de construção da cidade de Caruaru. A Cazanova Construção torna-se hoje a maior loja de material de construção do interior do Estado. A Cazanova torna real o sonho da casa própria.\r\n",
+    "registered": "2014-12-11",
+    "latitude": -8.2884123,
+    "longitude": -35.9817569,
+    "social": [
       {
-        "name": "twitter",
-        "link": "https://twitter.com/abdalac"
-      },
+        "name": "facebook",
+        "link": "https://www.facebook.com/CazanovaConstrucao"
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 4,
+    "thumbnailUrl": "espaco1.png",
+    "company": "Espaço eletrônico",
+    "email": "",
+    "phone": "(81) 3722-7286",
+    "address": "Rua João Condé, 151, Caruaru - Centro - PE",
+    "about": "Planos de TV por Assinatura.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2833462,
+    "longitude": -35.9706593,
+    "social": [
       {
-        "name": "github",
-        "link": "https://github.com/abdala"
+        "name": "facebook",
+        "link": "https://www.facebook.com/pages/Espa%C3%A7o-Eletr%C3%B4nico-SKY/618949351524010"
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 5,
+    "thumbnailUrl": "chico.jpg",
+    "company": "Chico Novaes",
+    "email": "",
+    "phone": " (81) 3721-0693",
+    "address": "Rua Gonçalves Dias, 163 - Maurício de Nassau - Centro - PE",
+    "about": "23 ANOS REALIZANDO SEU SONHO IMOBILIÁRIO E ADMINISTRANDO COM COMPETÊNCIA E SERIEDADE.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2771255,
+    "longitude": -35.9731073,
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://pt-br.facebook.com/pages/Chico-novaes-imoveis/171566262937605"
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 6,
+    "thumbnailUrl": "heronildo.jpg",
+    "company": "Heronildo Imóveis",
+    "email": "",
+    "phone": " (81) 3725-5409",
+    "address": "Av. Agamenon Magalhães - Maurício de Nassau - Centro - PE",
+    "about": "Ser um diferencial de Qualidade, Relacionamento e Serviços. Contribuindo para o desenvolvimento do setor imobiliário oferecendo produtos e serviços que atendam as expectativas de nossos clientes.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2779693,
+    "longitude": -35.9724793,
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://pt-br.facebook.com/pages/Chico-novaes-imoveis/171566262937605"
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 7,
+    "thumbnailUrl": "maysa.jpg",
+    "company": "Maysa Plaza Hotel",
+    "email": "",
+    "phone": " (81) 2103-1900",
+    "address": "Rua Teófilo Dias, 93 — Maurício de Nassau - Centro - PE",
+    "about": "O hotel conta hoje com 68 apartamentos, tendo um projeto de expansão para mais 32 UH's, e, destas, 3 (três) cuidadosamente projetadas para pessoas com necessidades especiais.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.279607,
+    "longitude": -35.9708643,
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://pt-br.facebook.com/maysaplaza.caruaru"
+      }
+    ]
+  },
+   {
+    "categoria": "Casa e Construção",
+    "id": 8,
+    "thumbnailUrl": "rommer.png",
+    "company": "Rommer Imóveis",
+    "email": "suporterfjs@hotmail.com",
+    "phone": " (81) 3719-3439",
+    "address": "Av. Dom Bosco, 350, Maurício de Nassau - Caruaru - PE",
+    "about": "ROMMER IMÓVEIS é atuante no mercado. Busca oferecer o que há de melhor em desempenho, competência e confiabilidade para a realização de seus negócios. Desse modo conquista mais que clientes, conquista verdadeiros Amigos!.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2773758,
+    "longitude": -35.9679172,
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/pages/Rommer-Ferreira-Im%C3%B3veis/366766303466973"
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 9,
+    "thumbnailUrl": "seletros.png",
+    "company": "Lojas Seletros",
+    "email": "",
+    "phone": " (81) 3723-6655",
+    "address": "Rua Vigário Freire, 62 | N. S. Das Dores - Caruaru - PE",
+    "about": "Caminhando a passos largos rumo a um crescimento cuidadosamente planejado por seus sócios e fundadores, a SELETROS ELETRO MAGAZINE LTDA se firma no mercado de eletrodomésticos e eletrônicos como uma opção diferenciada dos principais players do mercado como as grandes redes varejistas.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2855406,
+    "longitude": -35.9700517,
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/Seletros"
+      }
+    ]
+  },
+  {
+    "categoria": "Casa e Construção",
+    "id": 10,
+    "thumbnailUrl": "seletros.jpg",
+    "company": "Seletros Soft",
+    "email": "",
+    "phone": " (81) 3722-7929",
+    "address": "Av. Agamenon Magalhães, 624, Maurício de Nassau - Caruaru - PE",
+    "about": "Caminhando a passos largos rumo a um crescimento cuidadosamente planejado por seus sócios e fundadores, a SELETROS ELETRO MAGAZINE LTDA se firma no mercado de eletrodomésticos e eletrônicos como uma opção diferenciada dos principais players do mercado como as grandes redes varejistas.\r\n",
+    "registered": "2014-12-12",
+    "latitude": -8.2767498,
+    "longitude": -35.9728837,
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/Seletros"
       }
     ]
   }

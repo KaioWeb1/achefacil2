@@ -18,14 +18,29 @@
 					  <br>
           
 					
-					<h2 > {{educacaoid.company}} </h2>
-					<div class="bio"> {{empresa.bio}} </div>
-					<a href="{{empresa.social[0].link}}" target="_system">Google+</a><br>
-					<a href="{{empresa.social[1].link}}" target="_system">Twitter</a><br>
+								
+					<h1 class="empresa-company"> {{educacaoid.company}} </h1>
+					<div class="bio"> {{educacaoid.about}} </div>
+					<p> {{educacaoid.address}} </p>
+					<p> {{educacaoid.email}}</p>
+					<a href="{{educacaoid.social[0].link}}" target="_system">Facebook</a><br>
+					<a href="{{educacaoid.social[1].link}}" target="_system">Twitter</a><br>
 				</div>
-				<div class="mapa">
-					
-				</div>
+				<div id="map_canvas" ui-map="myMap" 
+				         
+				        ui-options="mapOptions" 
+				        ui-event="{'map-idle' : 'onMapIdle()'}"
+				        >
+				        </div>
+				        <!--In addition to creating the markers on the map, div elements with existing google.maps.Marker object should be created to hook up with events -->
+				        <div ng-repeat="marker in myMarkers" ui-map-marker="myMarkers[$index]"
+				                        ui-event="{'map-click': 'markerClicked(marker)'}">
+				      </div>
+				         <div ui-map-info-window="myInfoWindow">
+				         <p>{{educacaoid.company}}</p>
+				         <div class="empresa-img-map" style='background-image:url(images/empresas/{{educacaoid.thumbnailUrl}})'></div>
+
+				         </div>
 			</li>
 		</ul>
 	</div>
